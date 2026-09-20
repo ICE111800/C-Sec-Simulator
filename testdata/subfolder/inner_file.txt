@@ -1,0 +1,1 @@
+This file is inside a subfolder to test if the scanner can find it.

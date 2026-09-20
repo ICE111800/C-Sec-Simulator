@@ -1,0 +1,6 @@
+*.exe
+*.obj
+*.o
+*.out
+report_*.txt
+.vscode/
