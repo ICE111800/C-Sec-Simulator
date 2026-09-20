@@ -5,11 +5,11 @@
 ---
 
 ## 系統架構與模組設計
-├── main.c                  # 互動式 CLI 主控台選單
-├── virus_utils.h / .c      # 共通資安特徵偵測、檔名判斷與還原工具
-├── virus_simulator.c       # 模擬原地 XOR 感染、檔案隱藏與註冊表持久化
-├── antivirus_scanner.c     # 遞迴檔案掃描、病徵判斷與結構化報表產出
-└── ransomware_demo.c       # TEA 128-bit 加解密、Anti-Forensics 亂數覆寫與勒索警示
+main.c                  # 互動式 CLI 主控台選單
+virus_utils.h / .c      # 共通資安特徵偵測、檔名判斷與還原工具
+virus_simulator.c       # 模擬原地 XOR 感染、檔案隱藏與註冊表持久化
+antivirus_scanner.c     # 遞迴檔案掃描、病徵判斷與結構化報表產出
+ransomware_demo.c       # TEA 128-bit 加解密、Anti-Forensics 亂數覆寫與勒索警示
 
 ### 核心模組功能表
 | 模組 | 檔案 | 核心技術/機制 | 說明 |
